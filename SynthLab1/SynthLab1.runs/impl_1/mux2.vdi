@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Feb 11 14:48:48 2019
+# Process ID: 5137
+# Current directory: /home/user/Documents/SynthLab1/SynthLab1.runs/impl_1
+# Command line: vivado -log mux2.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source mux2.tcl -notrace
+# Log file: /home/user/Documents/SynthLab1/SynthLab1.runs/impl_1/mux2.vdi
+# Journal file: /home/user/Documents/SynthLab1/SynthLab1.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source mux2.tcl -notrace
+Command: link_design -top mux2 -part xc7z010clg400-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+6 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:22 . Memory (MB): peak = 1411.227 ; gain = 229.289 ; free physical = 9161 ; free virtual = 28035
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.18 . Memory (MB): peak = 1482.258 ; gain = 71.031 ; free physical = 9158 ; free virtual = 28031
+
+Starting Cache Timing Information Task
